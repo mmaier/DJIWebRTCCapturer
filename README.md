@@ -11,13 +11,13 @@ As of now the capturer only supports hardware decoding.
 DJIWebRTCCapturer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```swift
+```ruby
 pod 'DJIWebRTCCapturer'
 ```
 
 Due to WebRTC library does not support bit code, you may need to add following lines to your Podfile:
 
-```swift
+```ruby
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
