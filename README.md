@@ -11,13 +11,13 @@ As of now the capturer only supports hardware decoding.
 DJIWebRTCCapturer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod 'DJIWebRTCCapturer'
 ```
 
 Due to WebRTC library does not support bit code, you may need to add following lines to your Podfile:
 
-```ruby
+```swift
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
@@ -33,7 +33,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Before implementing the DroneCapturer, a working WebRTC connection plus a successfully connected DJI device is necessary. The DroneCapturer does not handle product connection / disconnection. To connect a drone, you need to implement the  `DJISDKManager.startConnectionToProduct()` method.
 
-```ruby
+```swift
 import DJIWebRTCCapturer
 
 // use DroneCapturer instead of RTCCameraVideoCapturer
