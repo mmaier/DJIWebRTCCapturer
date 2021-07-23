@@ -1,15 +1,10 @@
 # DJIWebRTCCapturer
 
-[![CI Status](https://img.shields.io/travis/mmaier/DJIWebRTCCapturer.svg?style=flat)](https://travis-ci.org/mmaier/DJIWebRTCCapturer)
-[![Version](https://img.shields.io/cocoapods/v/DJIWebRTCCapturer.svg?style=flat)](https://cocoapods.org/pods/DJIWebRTCCapturer)
-[![License](https://img.shields.io/cocoapods/l/DJIWebRTCCapturer.svg?style=flat)](https://cocoapods.org/pods/DJIWebRTCCapturer)
-[![Platform](https://img.shields.io/cocoapods/p/DJIWebRTCCapturer.svg?style=flat)](https://cocoapods.org/pods/DJIWebRTCCapturer)
-
-## Description
-
 iOS Swift WebRTC camera capturer for DJI drones.
 The DJIWebRTCCapturer is an extension to an existing WebRTC project, based on iOS Swift.
 It implements the RTCVideoCapturer protocol which adds a DJI drone video stream as localVideoSource to an existing peerConnection.
+
+As of now the capturer only supports hardware decoding.
 
 ## Installation
 

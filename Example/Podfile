@@ -1,4 +1,0 @@
-use_frameworks!
-target 'DJIWebRTCCapturer_Tests' do
-  pod 'DJIWebRTCCapturer', :path => '../'
-end
