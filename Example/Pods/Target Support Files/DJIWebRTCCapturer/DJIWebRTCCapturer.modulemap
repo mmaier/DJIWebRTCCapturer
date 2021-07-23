@@ -1,0 +1,6 @@
+framework module DJIWebRTCCapturer {
+  umbrella header "DJIWebRTCCapturer-umbrella.h"
+
+  export *
+  module * { export * }
+}

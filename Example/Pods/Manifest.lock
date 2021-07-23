@@ -1,0 +1,16 @@
+PODS:
+  - DJIWebRTCCapturer (0.1.0)
+
+DEPENDENCIES:
+  - DJIWebRTCCapturer (from `../`)
+
+EXTERNAL SOURCES:
+  DJIWebRTCCapturer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DJIWebRTCCapturer: d6a8cfeeee199c405218e57fd1bb96b393e71113
+
+PODFILE CHECKSUM: 325c835f33e44d6514b1708b1029305eb606c9df
+
+COCOAPODS: 1.10.1

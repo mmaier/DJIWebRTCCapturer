@@ -1,0 +1,22 @@
+{
+  "name": "DJIWebRTCCapturer",
+  "version": "0.1.0",
+  "summary": "A short description of DJIWebRTCCapturer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mmaier/DJIWebRTCCapturer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mmaier": "m.maier@mmwebdesign.at"
+  },
+  "source": {
+    "git": "https://github.com/mmaier/DJIWebRTCCapturer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DJIWebRTCCapturer/Classes/**/*"
+}
