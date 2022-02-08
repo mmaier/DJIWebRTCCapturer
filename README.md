@@ -15,19 +15,7 @@ it, simply add the following line to your Podfile:
 pod 'DJIWebRTCCapturer'
 ```
 
-Due to WebRTC library does not support bit code, you may need to add following lines to your Podfile:
-
-```ruby
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['ENABLE_BITCODE'] = 'NO'
-    end
-  end
-end
-```
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+and run `pod install` from the project directory.
 
 ## Usage
 

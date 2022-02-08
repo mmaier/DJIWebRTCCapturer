@@ -36,6 +36,9 @@ It implements the RTCVideoCapturer protocol which adds a DJI drone video stream 
   s.dependency 'DJI-SDK-iOS'
   s.dependency 'DJIWidget'
   
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'ENABLE_BITCODE': 'NO'
+  }
 
 end
